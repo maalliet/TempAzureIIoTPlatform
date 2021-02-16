@@ -450,15 +450,15 @@
                 "timeSeriesIdProperties": [
                     {
                         "type": "string",
-                        "name": "publisherId"
+                        "name": "PublisherId"
                     },
                     {
                         "type": "string",
-                        "name": "dataSetWriterId"
+                        "name": "DataSetWriterId"
                     },
                     {
                         "type": "string",
-                        "name": "nodeId"
+                        "name": "NodeId"
                     }
                 ]
             },

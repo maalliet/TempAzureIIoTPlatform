@@ -1,0 +1,355 @@
+{
+  "NodesToAdd": [
+    {
+      "nodeId": "ns=4;i=2",
+      "displayName": "VIL_ScanNumber",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=3",
+      "displayName": "VIL_MachineSpeed",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=4",
+      "displayName": "VIL_ReceiptName",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=5",
+      "displayName": "VIL_MeasureValue01",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=6",
+      "displayName": "VIL_MeasureValue02",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=7",
+      "displayName": "VIL_MeasureValue03",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=8",
+      "displayName": "VIL_MeasureValue04",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=9",
+      "displayName": "VIL_MeasureValue05",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=10",
+      "displayName": "VIL_MeasureValue06",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=11",
+      "displayName": "VIL_MeasureValue07",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=12",
+      "displayName": "VIL_MeasureValue08",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=13",
+      "displayName": "VIL_MeasureValue09",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=14",
+      "displayName": "VIL_MeasureValue10",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=15",
+      "displayName": "VIL_MeasureValue11",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=16",
+      "displayName": "VIL_MeasureValue12",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=17",
+      "displayName": "VIL_MeasureValue13",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=18",
+      "displayName": "VIL_MeasureValue14",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=19",
+      "displayName": "VIL_MeasureValue15",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=20",
+      "displayName": "VIL_MeasureValue16",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=21",
+      "displayName": "VIL_MeasureValue17",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=22",
+      "displayName": "VIL_MeasureValue18",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=23",
+      "displayName": "VIL_MeasureValue19",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=24",
+      "displayName": "VIL_MeasureValue20",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=25",
+      "displayName": "VIL_MeasureValue21",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=26",
+      "displayName": "VIL_MeasureValue22",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=27",
+      "displayName": "VIL_MeasureValue23",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=28",
+      "displayName": "VIL_MeasureValue24",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=29",
+      "displayName": "VIL_MeasureValue25",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=30",
+      "displayName": "VIL_MeasureValue26",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=31",
+      "displayName": "VIL_MeasureValue27",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=32",
+      "displayName": "VIL_MeasureValue28",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=33",
+      "displayName": "VIL_MeasureValue29",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=34",
+      "displayName": "VIL_MeasureValue30",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=35",
+      "displayName": "VIL_MeasureValue31",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=36",
+      "displayName": "VIL_MeasureValue32",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=37",
+      "displayName": "VIL_TemperatureCoatingKnife",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=38",
+      "displayName": "VIL_TemperatureCoatingKnifeZone1",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=39",
+      "displayName": "VIL_TemperatureCoatingKnifeZone2",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=40",
+      "displayName": "VIL_TemperatureCoatingKnifeZone3",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=41",
+      "displayName": "VIL_TemperatureCoatingKnifeZone4",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=42",
+      "displayName": "VIL_TemperatureCoatingKnifeZone5",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=43",
+      "displayName": "VIL_TemperatureInfraRedFieldZone1",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=44",
+      "displayName": "VIL_TemperatureInfraRedFieldZone2",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=45",
+      "displayName": "VIL_TemperatureInfraRedFieldZone3",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=46",
+      "displayName": "VIL_TemperatureInfraRedFieldZone4",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=47",
+      "displayName": "VIL_TemperatureInfraRedFieldZone5",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=48",
+      "displayName": "VIL_Machine - on",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    },
+    {
+      "nodeId": "ns=4;i=49",
+      "displayName": "VIL_Machine - running",
+      "publishingInterval": "00:00:10",
+      "samplingInterval": "00:00:01",
+      "heartbeatInterval": "00:00:01"
+    }
+  ],
+  "NodesToRemove": [
+  ],
+  "Header": {
+    "elevation": {
+      "type": "None"
+    },
+    "locales": [
+      "string"
+    ],
+    "diagnostics": {
+      "level": "None",
+      "auditId": "string",
+      "timeStamp": "2021-02-03T12:21:22.342Z"
+    }
+  }
+}

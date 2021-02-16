@@ -1,0 +1,550 @@
+{
+  "put": [
+    {
+      "id": "9330677b-b43b-4b10-b824-50f370f0710f",
+      "name": "Villar",
+      "variables": {
+        "Scan Number": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Long"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_ScanNumber'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Machine Speed": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MachineSpeed'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 01": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue01'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 02": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue02'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 03": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue03'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 04": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue04'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 05": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue05'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 06": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue06'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 07": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue07'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 08": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue08'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 09": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue09'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 10": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue10'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 11": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue11'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 12": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue12'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 13": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue13'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 14": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue14'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 15": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue15'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 16": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue16'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 17": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue17'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 18": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue18'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 19": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue19'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 20": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue20'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 21": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue21'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 22": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue22'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 23": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue23'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 24": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue24'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 25": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue25'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 26": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue26'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 27": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue27'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 28": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue28'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 29": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue29'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 30": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue30'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 31": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue31'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Measure Value 32": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_MeasureValue32'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+        "Temperature Coating Knife": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_TemperatureCoatingKnife'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+        "Temperature Coating Knife Zone 1": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_TemperatureCoatingKnifeZone1'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Temperature Coating Knife Zone 2": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_TemperatureCoatingKnifeZone2'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Temperature Coating Knife Zone 3": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_TemperatureCoatingKnifeZone3'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Temperature Coating Knife Zone 4": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_TemperatureCoatingKnifeZone4'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Temperature Coating Knife Zone 5": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_TemperatureCoatingKnifeZone5'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Temperature InfraRed FieldZone 1": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_TemperatureInfraRedFieldZone1'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Temperature InfraRed FieldZone 2": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_TemperatureInfraRedFieldZone2'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Temperature InfraRed FieldZone 3": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_TemperatureInfraRedFieldZone3'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Temperature InfraRed FieldZone 4": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_TemperatureInfraRedFieldZone4'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        },
+		"Temperature InfraRed FieldZone 5": {
+          "kind": "numeric",
+          "value": {
+            "tsx": "$event.Value.Double"
+          },
+          "filter": {
+            "tsx": "$event['DisplayName'].String = 'VIL_TemperatureInfraRedFieldZone5'"
+          },
+          "aggregation": {
+            "tsx": "avg($value)"
+          }
+        }
+      }
+    }
+  ]
+}
